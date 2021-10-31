@@ -25,3 +25,8 @@ $('#btn-redraw').on('click', function(){
     li.shininess = $('#id-shininess').val()?.toString() as string;  
     CreateShape(li, isAnimation);
 });
+
+function reportWindowSize() {
+    CreateShape(li, isAnimation);
+}
+window.onresize = reportWindowSize;
