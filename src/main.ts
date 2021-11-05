@@ -10,8 +10,6 @@ const CreateShape = async (li:LightInputs = {}, isAnimation = true) => {
 
 let li:LightInputs = {};
 let isAnimation = true;
-let ul = 1;
-let vl = 1;
 CreateShape(li, isAnimation);
 
 $('#id-radio input:radio').on('click', function(){
